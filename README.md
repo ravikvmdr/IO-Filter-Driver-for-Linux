@@ -18,7 +18,8 @@ A kernel IO filter enables:
 	•	Precise block replay
 	•	Platform-independent DR pipelines
 
-	Target Use Cases
+Target Use Cases
+	
 	•	Continuous Data Protection (CDP)
 	•	Block-level incremental backups
 	•	Write-ahead logging for recovery
