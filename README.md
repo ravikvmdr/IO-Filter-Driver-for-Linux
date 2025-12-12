@@ -25,4 +25,8 @@ Target Use Cases
 	•	Cyber-resilience pipelines
 	•	Forensic IO analysis
 
+Challenges - Bridging the Kernel Layers
+
+Linking a block I/O request (sector offset) back to a file path requires bridging two fundamentally separate kernel subsystems: the block layer, which operates only on devices and sector offsets, and the VFS/filesystem layer, which maintains inode and file path context. These layers are intentionally decoupled in Linux, making direct block-to-file attribution non-trivial and central to kernel-level IO filtering design.
+
 
