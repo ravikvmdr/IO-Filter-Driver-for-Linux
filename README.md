@@ -3,6 +3,7 @@ Linux IO filter driver designed to enable Continuous Data Protection (CDP), bloc
 This project aims to provide a kernel-level interception layer for disk IO, allowing precise capture of write operations with minimal overhead.
 
 Motivation
+
 Existing backup and DR solutions rely on:
 	•	Snapshots
 	•	Periodic scans
