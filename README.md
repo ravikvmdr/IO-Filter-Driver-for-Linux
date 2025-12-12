@@ -22,7 +22,6 @@ Target Use Cases
 	
 	•	Continuous Data Protection (CDP)
 	•	Block-level incremental backups
-	•	Write-ahead logging for recovery
 	•	Cyber-resilience pipelines
 	•	Forensic IO analysis
 
